@@ -1,35 +1,74 @@
-var a = 100;
-var b = 13;
-var lineBreak = '<br>';
+// var a = 10;
+// var b = 20;
 
-document.write('a + b + c = ');
-var result = a + b + c;
+// var linebreak = "<br>";
 
-document.write(result);
-document.write(lineBreak);
-
-
+// document.write("(a == b) =>");
+// result = (a == b);
+// document.write(result);
+// document.write(linebreak);
 
 
-document.write('a - b - c = ');
-var result = a - b - c;
-
-document.write(result);
-document.write(lineBreak);
+// document.write("(a < b) =>");
+// result = (a < b);
+// document.write(result);
+// document.write(linebreak);
 
 
 
-document.write('a * b * c = ');
-var result = a * b * c;
-
-document.write(result);
-document.write(lineBreak);
-
+// document.write("(a > b) =>");
+// result = (a > b);
+// document.write(result);
+// document.write(linebreak);
 
 
 
-document.write('a / b / c = ');
-var result = a / b / c;
+// document.write("(a >= b) =>");
+// result = (a >= b);
+// document.write(result);
+// document.write(linebreak);
 
-document.write(result);
-document.write(lineBreak);
+
+
+// document.write("(a <= b) =>");
+// result = (a <= b);
+// document.write(result);
+// document.write(linebreak);
+
+
+
+
+// document.write("(a != b) =>");
+// result = (a != b);
+// document.write(result);
+// document.write(linebreak);
+
+
+// // var count;
+
+// // for(count = 0;count < 10; count ++){
+
+// //   document.write("current count :" + count);
+
+// //   document.write("<br>");
+// // }
+
+// // document.write("<br>");
+
+// // document.write(count);
+
+
+
+const person = {
+  fname:"Ajay",
+  lname:"Singh",
+  age:45
+
+};
+
+for(let x in person){
+
+
+  console.log("Person Details: " + x + ": " +person[x]);
+}
+
